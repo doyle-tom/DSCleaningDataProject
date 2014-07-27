@@ -1,0 +1,12 @@
+Feature Selection 
+=================
+The features summarized in the resulting dataframe and output file are a subset of the original data available here
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
+
+The original data dictionary has been maintained with limited changes for readability and to provide the requisite subset as defined in the Project Assignment.
+
+The features selected for this summary come are the means of mean (_Mean) and standard deviation values (_Std) associated with the signals in the original data set.  An examination of the original set shows that there are 13 discrete signal sets where certain sets also have a dimensional component (XYZ).  These means (_Mean) and standard deviation (_Std) signals associated with sets has been included where as others have been eliminated.
+-BodyAcc (time and frequency data for _Mean and _Std for each dimensional component XYZ)-BodyAccJerk (time and frequency data for _Mean and _Std for each dimensional component XYZ)-BodyAccJerkMag (time data from _Mean and _Std)-BodyAccMag (time data from _Mean and _Std)-BodyBodyAccJerkMag (frequency data from _Mean and _Std)-BodyBodyGyroJerkMag (frequency data from _Mean and _Std)-BodyBodyGyroMag (frequency data from _Mean and _Std)-BodyGyro (time and frequency data for _Mean and _Std for each dimensional component XYZ)-BodyGyroJerk (time data for _Mean for each dimensional component XYZ)-BodyGyroJerkMag (time data for _Mean)-BodyGyroMag (time data for _Mean)-GravityAcc (time data for _Mean for each dimensional component XYZ)-GravityAccMag (time data for _Mean
+
+Additional information regarding the source and derivation of the original signals can be found with the original data set:
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
