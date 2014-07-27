@@ -5,6 +5,10 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 
 The original data dictionary has been maintained with limited changes for readability and to provide the requisite subset as defined in the Project Assignment.
 
+All features have been summarized by Activity and Subject where:
+-Activity: The activity being performed (LAYING, SITTING, STANDING, WALKING, WALKING_DOWNSTAIRS, WALKING_UPSTAIRS)
+-Subject: The ID of the subject
+
 The features selected for this summary come are the means of mean (_Mean) and standard deviation values (_Std) associated with the signals in the original data set.  An examination of the original set shows that there are 13 discrete signal sets where certain sets also have a dimensional component (XYZ).  These means (_Mean) and standard deviation (_Std) signals associated with sets has been included where as others have been eliminated.
 -BodyAcc (time and frequency data for _Mean and _Std for each dimensional component XYZ)-BodyAccJerk (time and frequency data for _Mean and _Std for each dimensional component XYZ)-BodyAccJerkMag (time data from _Mean and _Std)-BodyAccMag (time data from _Mean and _Std)-BodyBodyAccJerkMag (frequency data from _Mean and _Std)-BodyBodyGyroJerkMag (frequency data from _Mean and _Std)-BodyBodyGyroMag (frequency data from _Mean and _Std)-BodyGyro (time and frequency data for _Mean and _Std for each dimensional component XYZ)-BodyGyroJerk (time data for _Mean for each dimensional component XYZ)-BodyGyroJerkMag (time data for _Mean)-BodyGyroMag (time data for _Mean)-GravityAcc (time data for _Mean for each dimensional component XYZ)-GravityAccMag (time data for _Mean
 
