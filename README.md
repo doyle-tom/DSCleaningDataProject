@@ -19,8 +19,9 @@ The script requires a number of input files:
 * train/X_test.txt        : space delimited table of training data where the columns are ordered based on the features table
 
 The script loads and summarizes data by:
-1. load feature and activity information
-2. unifying (joining) test and training data sets using the feature information to limit loaded information to only columns relevant to the project (mean and standard deviation)
-3. summarize the unified data by subject and activity
-4. cleans the column names and activity data for readibility
-5. write clean summarized output file
+
+ 1. loading feature and activity information
+ 2. unifying (joining) test and training data sets using the feature information to limit loaded information to only columns relevant to the project (mean and standard deviation)
+ 3. summarize the unified data by subject and activity
+ 4. cleans the column names and activity data for readibility
+ 5. write clean summarized output file
